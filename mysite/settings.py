@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['localhost']
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'django_createsuperuserwithpassword',	
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
